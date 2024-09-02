@@ -1,0 +1,13 @@
+# Ensure all files use LF line endings
+* text=auto
+
+# Specific handling for Python files
+*.py text
+
+# Specific handling for text files
+*.txt text
+
+# Ignore line endings for binary files
+*.png binary
+*.jpg binary
+*.pdf binary

@@ -11,3 +11,6 @@
 *.png binary
 *.jpg binary
 *.pdf binary
+
+# Explicitly define line endings for specific files or directories
+venv/* text eol=lf
